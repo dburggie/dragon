@@ -1,0 +1,5 @@
+dragon.py, a python2 script for generating png images of the 'dragon curve'
+
+DEPENDECIES
+    pypng -- module for creation of png files
+
