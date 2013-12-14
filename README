@@ -1,5 +1,16 @@
 dragon.py, a python2 script for generating png images of the 'dragon curve'
 
+USAGE:
+    * instantiate a new dragon curve object
+        * EX: 'd = Dragon(3) # 3 is the length of a side in pixels'
+    * use the 'iterate(rounds)' method to iterate your dragon curve
+        * EX: 'd.iterate(15) # 15 rounds of iteration'
+    * use the 'write(filename,bd,fg)' method to write your curve to a file
+        * EX: 'd.write('output.png')'
+        * note that bg and fg default to white and black respectively
+            * if you want to use something else, use a list object:
+                * EX: 'bg = [r,b,g] # r,g,b are ints in range(256);
+
 DEPENDECIES
     pypng -- module for creation of png files
 
